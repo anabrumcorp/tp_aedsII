@@ -1,0 +1,6 @@
+int SomaDigitos(int numero){
+
+    
+
+
+}
