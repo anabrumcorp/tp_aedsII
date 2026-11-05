@@ -170,6 +170,7 @@ veiculos[menor] = aux;
 
 
 int main() {
+int k = 10;
 char *caminho = "/tmp/veiculos.csv";
 FILE *teste = fopen(caminho, "r");
 if (!teste) {
@@ -203,7 +204,7 @@ break;
 selecao(encontrados, total);
 
 char bufferSaida[1024];
-for (int i = 0; i < total; i++) {
+for (int i = 0; i < k; i++) {
 formatVeiculo(encontrados[i], bufferSaida);
 printf("%s\n", bufferSaida);
 }
